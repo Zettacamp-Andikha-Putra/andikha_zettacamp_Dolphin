@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    top: 0;
+}
+
+body{
+    background: white;
+}
+
+.shopbutton{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    background: white;
+    color: green;
+    font-size: 11pt;
+    width: auto;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.container{
+    display: block;
+    width: 70%;
+    height: 620px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 93vw;
+    background-color: white;
+    padding: 10px;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: white;
+    border: solid 1px black;
+    width: 26vw;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.carddetails{
+    padding: 10px, 0;
+}
+
+.carddetails h4{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.carddetails p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 20vw;
+    padding: 0 0;
+}
+
+.cardimg{
+    width: auto;
+    height: 16vh;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+
+    background-color: green;
+
+    display: block;
+    width: 70%;
+    padding: 15px 20px;
+    margin: 10px auto;
+}
+
+.kotak_login{
+    width: 350px;
+    background: green;
+    margin: 10px auto;
+    padding: 30px 20px;
+}
+
+.tulisan_login{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.form_login{
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol_login{
+    background: white;
+    color: green;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul{
+    margin: auto;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
