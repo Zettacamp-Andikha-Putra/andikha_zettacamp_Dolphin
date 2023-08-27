@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple Table - Embedded Styling</title>
+
+        <style>
+            body{
+                background-color: #D8D9DA;
+            }
+
+            .hobby-table tr:nth-child(3n+0){
+                background-color: green;
+            }
+
+            .movie-table tr:nth-child(4n+0){
+                background-color: red;
+            }
+
+            .song-table tr:nth-child(5n+0){
+                background-color: blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Table Hobby</h1>
+        <table border="1" class="hobby-table">
+            <tr>
+                <th colspan="3">Hobby</th>
+            </tr>
+            <tr>
+                <th>Name of Hobby</th>
+                <th>Do it Often?</th>
+                <th>With Friends?</th>
+            </tr>
+            <tr align="center">
+                <td>Listen Music</td>
+                <td>Yes</td>
+                <td>Sometimes</td>
+            </tr>
+            <tr align="center">
+                <td>Photography</td>
+                <td>Rarely</td>
+                <td>Sometimes</td>
+            </tr>
+            <tr align="center">
+                <td>Hiking</td>
+                <td>No</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+
+        <h1>Table Favorites Movies</h1>
+        <table border="1" class="movie-table">
+            <tr>
+                <th colspan="5">Favorites Movies</th>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Year Released</th>
+                <th>Duration</th>
+                <th>Rating</th>
+            </tr>
+            <tr align="center">
+                <td>Iron Man 1</td>
+                <td>Action/Sci-fi</td>
+                <td>2008</td>
+                <td>2h 6m</td>
+                <td>4.5/5</td>
+            </tr>
+            <tr align="center">
+                <td>Iron Man 2</td>
+                <td>Action/Sci-fi</td>
+                <td>2010</td>
+                <td>2h 5m</td>
+                <td>4.5/5</td>
+            </tr>
+            <tr align="center">
+                <td>Iron Man 3</td>
+                <td>Action/Sci-fi</td>
+                <td>2013</td>
+                <td>2h 10m</td>
+                <td>4.5/5</td>
+            </tr>
+        </table>
+
+        <h1>Table Favorites Song</h1>
+        <table border="1" class="song-table">
+            <tr>
+                <th colspan="4">Favorites Song</th>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Duration</th>
+                <th>Year Released</th>
+            </tr>
+            <tr align="center">
+                <td>Evakuasi</td>
+                <td>Hindia</td>
+                <td>03:28</td>
+                <td>2019</td>
+            </tr>
+            <tr align="center">
+                <td>Wejangan Mama</td>
+                <td>Hindia</td>
+                <td>02:25</td>
+                <td>2019</td>
+            </tr>
+            <tr align="center">
+                <td>Besok Mungkin Kita Sampai</td>
+                <td>Hindia</td>
+                <td>04:00</td>
+                <td>2019</td>
+            </tr>
+            <tr align="center">
+                <td>Jam Makan Siang</td>
+                <td>Hindia</td>
+                <td>04:39</td>
+                <td>2019</td>
+            </tr>
+        </table>
+    </body>
+</html>

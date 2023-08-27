@@ -1,0 +1,39 @@
+body{
+    background-color: #D8D9DA;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;"
+}
+
+span{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.span{
+    font-size: 18px;
+    color: blue;
+    font-style: italic;
+}
