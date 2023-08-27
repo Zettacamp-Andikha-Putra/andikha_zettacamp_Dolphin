@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+
+            header{
+                background-color: #C8B6A6;
+                padding: 20px;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            nav{
+                background: #8D7B68;
+                height: auto;
+            }
+
+            nav ul{
+                margin: auto;
+                padding: 14px;
+            }
+
+            nav ul li{
+                list-style: none;
+                display: inline;
+            }
+
+            nav ul li a{
+                padding: 14px;
+                background: #8D7B68;
+                color: #222;
+            }
+
+            nav ul li a:hover{
+                background: #4da4ff;
+                color: #fff;
+            }
+
+            article{
+                background-color: #A4907C;
+                padding: 10px;
+                width: auto;
+                height: 577px;
+            }
+
+            h1{
+                text-align: center;
+            }
+
+            input[type="submit"]{
+                background-color: #C8B6A6;
+            }
+
+            .kotak_login{
+                width: 350px;
+                background: white;
+                margin: 80px auto;
+                padding: 30px 20px;
+            }
+
+            .tulisan_login{
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            .form_login{
+                box-sizing : border-box;
+                width: 100%;
+                padding: 10px;
+                font-size: 11pt;
+                margin-bottom: 20px;
+            }
+
+            .tombol_login{
+                background: #A4907C;
+                color: black;
+                font-size: 11pt;
+                width: 100%;
+                border: none;
+                border-radius: 3px;
+                padding: 10px 20px;
+            }
+
+            img{
+                border-radius: 50%;
+                display: block;
+                padding: 10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            footer{
+                background-color: #C8B6A6;
+                padding: 10px;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        <header>
+            <h1>Register</h1>
+        </header>
+
+        <article>
+
+            <div class="kotak_login">
+                <p class="tulisan_login">register</p>
+
+                <form action="profile.html">
+                    <label>Name</label>
+                    <input type="text" name="name" class="form_login" placeholder="Name" required>
+    
+                    <label>Email</label>
+                    <input type="email" name="email" class="form_login" placeholder="Email" required>
+    
+                    <label>Telephone</label>
+                    <input type="tel" name="telephone" class="form_login" placeholder="Telephone" required>
+    
+                    <label>Type of Account</label>
+                    <br>
+                    <input type="radio" name='acctype' value='free'/>Free
+                    <input type="radio" name='acctype' value='prem'/>Premium
+                    <br>
+                    <br>
+                    
+                    <input type="submit" class="tombol_login" name="submit" value="REGISTER">
+                    
+                </form>
+            </div>
+
+        </article>
+    </body>
+
+    <footer>
+        &copy; Document HTML by Andikha 2023
+    </footer>
+</html>
