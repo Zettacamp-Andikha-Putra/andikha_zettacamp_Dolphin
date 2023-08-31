@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Storage</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <h2 class="mt-5 mb-5"> Local Storage</h2>
+            <div class="mb-5">
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="booktitle">Book Title</label>
+                        <input type="text"
+                        name="booktitle"
+                        class="form-control"
+                        id="booktitle"
+                        placeholder="Book Title">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="authorsname">Authors Name</label>
+                        <input type="text"
+                        name="authorsname"
+                        class="form-control"
+                        id="authorsname"
+                        placeholder="Authors Name">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="totalcount">Total Count</label>
+                        <input type="text"
+                        name="totalcount"
+                        class="form-control"
+                        id="totalcount"
+                        placeholder="Total Count">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="bookdescription">Book Description</label>
+                        <input type="text"
+                        name="bookdescription"
+                        class="form-control"
+                        id="bookdescription"
+                        placeholder="Book Description">
+                    </div>
+
+                    <div class="col-lg-12 mt-5">
+                        <button class="btn btn-success" id="Submit" onclick="AddData()">Add Data</button>
+                        <button class="btn btn-primary" id="Update" onclick="AddData()">Update</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <table class="table table-bordered" id="crudTable">
+                        <thead>
+                            <tr>
+                                <th>Book Title</th>
+                                <th>Author</th>
+                                <th>Total Count</th>
+                                <th>Book Description</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="script/script.js"></script>
+    </body>
+</html>
